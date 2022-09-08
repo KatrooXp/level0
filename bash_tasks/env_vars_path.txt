@@ -1,0 +1,13 @@
+SURNAME=surname
+export SURNAME
+
+cat > script.sh
+#!/bin/bash
+printenv SURNAME
+
+export PATH="$HOME/homework:$PATH"
+
+vi~/.bashrc
+export PATH="$HOME/homework:$PATH"
+
+source~/.bashrc

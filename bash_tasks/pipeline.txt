@@ -1,0 +1,1 @@
+mkdir Fold && touch file /home/katroo/Fold && echo "Hello" > /home/katroo/Fold/file && cat /home/katroo/Fold/file || echo "Smth went wrong"
